@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: #0a1623;
+  }
+  
+  h1{
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    color: #00d548;
+    text-align: center;
+  }
+  p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #00d548;
+  }
+
+  .container {
+    background-image: url(../image/api_logo.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+    text-align: center;
+    box-shadow: 3px 3px 5px #00d548;
+    max-width: 500px;
+    height: 390px;
+    padding: 5% 5%;
+    margin: 5% auto 5%;
+    background-color: #eeeeee;
+    border-radius: 9px;
+  }
+
+  form input[type="submit"] {
+    font-family: 'Lato', sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: black;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px;
+    background: linear-gradient(to right, transparent 10%, #00d548 70%)
+      no-repeat right / 300%;
+    transition: background-position 0.5s ease;
+  }
+  
+  form input[type="submit"]:hover {
+    font-family: 'Lato', sans-serif;
+    background-position: left;
+    color: black;
+    border: 1px solid #000000;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  select{
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #00d548;
+    border-radius: 10px;
+  }
